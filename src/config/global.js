@@ -1,19 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Soporte técnico a la infraestructura TI',
+    descripcionCurso:
+      'El personal de soporte técnico TI garantiza la disponibilidad y operación a las empresas o clientes para brindar un buen servicio que resuelva todo tipo de problemas relacionados con el mantenimiento del hardware, software y la red de computadores. Puede hacerlo de forma personal o remota, por diferentes medios de comunicación.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    imagenesDecorativasBanner: [],
   },
   menuPrincipal: {
     menu: [
@@ -32,14 +24,44 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Problema de soporte',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Tipo de problemas',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Clasificación de problemas',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Herramienta',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Valoración de riesgos',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Medidas de control de riesgos',
+            hash: 't_1_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: 'Verificación de controles de riesgos',
+            hash: 't_1_6',
           },
         ],
       },
@@ -48,15 +70,82 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Alistamientos ',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Tipo de <i>software</i> asociado',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Protocolo de servicio ',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Ética y atención de clientes',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Normas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Tipo de garantía ',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Seguridad y manipulación ',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Política y normas legales ',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: '<i>Hardware</i>',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Arquitectura de <i>hardware</i>',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Tipo de equipos',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Tipo de puertos',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,32 +190,119 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '20 fallos comunes en el computador',
+      referencia:
+        'Artiaga, G. (2013). 20 fallas comunes de una computadora. B studios México [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/8HpCkJQBrGM',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Arquitectura de <i>Hardware</i> - Info Educativa',
+      referencia:
+        'Info educativo. (2020). Arquitectura de Hardware. Info Educativa [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/hLwWgZk7AGg',
+    },
+    {
+      tema: 'Periféricos de entrada y salida',
+      referencia:
+        'Todo code (2022). Periféricos de entrada y salida.[Video] YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/9r88MHfDrho',
+    },
+    {
+      tema: 'El <i>software</i> y <i>hardware</i>',
+      referencia:
+        'Lifider Educación (2022). El software y el hardware explicados: tipos y ejemplos. [Video] YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/_eg31SXhr2g ',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<i>Firmware</i>',
+      significado:
+        'el soporte lógico inmutable es un programa informático que define la lógica de nivel más bajo que controla los circuitos electrónicos de cualquier dispositivo.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Información',
+      significado:
+        'tiene relación directa o indirecta con las funciones de la entidad: <i>software, hardware</i>, personas (roles), físicos (instalaciones, áreas de almacenamiento de expedientes, centros de procesamiento de datos), intangibles (imagen y reputación).',
+    },
+    {
+      termino: 'LAN',
+      significado:
+        'es una red informática que permite la comunicación y el intercambio de datos entre diferentes dispositivos a nivel local, ya que está limitada a distancias cortas.',
+    },
+    {
+      termino: '<i>Overclocking</i>',
+      significado:
+        'es la práctica de aumentar la velocidad del reloj de un componente electrónico más allá de las especificaciones del fabricante.',
+    },
+    {
+      termino: 'PCI',
+      significado:
+        'este es el método más común para conectar tarjetas controladoras adicionales a la placa base de la computadora.',
+    },
+    {
+      termino: 'Remota',
+      significado:
+        'es aquella actividad en la que el soporte técnico y el cliente están físicamente distantes.',
+    },
+    {
+      termino: '<i>Software</i>',
+      significado:
+        'soporte lógico al sistema formal de un sistema informático, que comprende el conjunto de los componentes lógicos necesarios que hace posible la realización de tareas específicas.',
+    },
+    {
+      termino: 'Tarjeta madre',
+      significado:
+        'es el circuito que compone los componentes de la computadora que están conectados a él. Es un componente esencial para montar una computadora de escritorio, computadora portátil o dispositivo personal.',
+    },
+    {
+      termino: 'TI',
+      significado:
+        'la tecnología de la información es el uso de computadoras y equipos de telecomunicaciones para almacenar, recuperar, transmitir y procesar datos, a menudo utilizados en relación con negocios u otros esfuerzos.',
+    },
+    {
+      termino: 'Wi-Fi',
+      significado:
+        'tecnología que permite conectar diferentes equipos informáticos a través de una red inalámbrica de banda ancha.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Almond, G. (1996). <i>Political Science: The History of the Discipline, A New Handbook of Political Science</i>. In: R. E. Goodin and H. D. Klingemann (ed.). Oxford University Press. pp. 64-89. ',
+      link:
+        'https://www.scielo.org.mx/scielo.php?script=sci_nlinks&pid=S1405-0218200200020011900005&lng=en',
+    },
+    {
+      referencia:
+        'Corrales, J. (2019). Servicio al cliente ¿Qué es y por qué es un pilar de las empresas exitosas?. ',
+      link: 'https://rockcontent.com/es/blog/servicio-al-cliente/',
+    },
+    {
+      referencia:
+        'Icontec internacional. (1999). <i>Guía técnica colombiana</i>. Docplayer',
+      link: 'https://docplayer.es/77035573-Guia-tecnica-colombiana-62.html ',
+    },
+    {
+      referencia:
+        'Información, T. (2018). La arquitectura de servidores: Clientes – Servidor y Multicapa. ',
+      link:
+        'https://www.tecnologias-informacion.com/arquitectura-servidores.html ',
+    },
+    {
+      referencia: 'Muñoz, J. (2014). Diagrama de concepto de solución. ',
+      link:
+        'https://chae201411700521596.wordpress.com/2014/07/15/diagrama-de-concepto-de-solucion/',
+    },
+    {
+      referencia:
+        'Rodríguez, J. (2006). La importancia del servicio al Cliente. ',
+      link:
+        'https://kipdf.com/download/la-importancia-del-servicio-al-cliente-contenido-general-del-curso_5aafba5a1723dd429c74ebee.html ',
     },
   ],
   creditos: {
