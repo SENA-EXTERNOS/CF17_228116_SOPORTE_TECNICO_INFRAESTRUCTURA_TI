@@ -52,6 +52,9 @@
           p(numero="6" titulo="Seguridad en redes") La ciberseguridad son las políticas y prácticas que se implementan para prevenir y controlar el acceso no autorizado, el uso indebido, la modificación o la denegación de acceso a una red informática y sus recursos.
           p(numero="7" titulo="Seguridad informática") Se trata de la protección de la información y, en particular, de su tratamiento, con el fin de evitar la manipulación de datos y procesos por parte de personas no autorizadas.
 
+    <Separador></Separador>
+    #t_3_3.titulo-segundo.color-primario.mt-5
+      h2 3.3  Política y normas legales
     .row.justify-content-center.mt-5
       .col-md-7
        p Las normas o políticas son vitales para toda forma de organización o empresa. Se incluye dentro de ellas al departamento de Informática, el cual es el órgano encargado de desarrollar las políticas necesarias para el uso de los recursos y servicios informáticos.

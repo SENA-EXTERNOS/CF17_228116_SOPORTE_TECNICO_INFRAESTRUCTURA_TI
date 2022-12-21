@@ -54,16 +54,16 @@
           .number(data-number="03")
             h4.ps-4 #[i Hardware] gráfico
             p.ps-4.mb-3 Se compone principalmente de tarjetas gráficas que cuentan con su propia memoria y CPU y se encargan de interpretar y ejecutar señales para crear una imagen. El hecho de que esta función no recaiga en la CPU está relacionado con la eficiencia, pues el sistema funciona de manera óptima al reducir la memoria principal de estas funciones.
-        .col-6.col-lg-4
+        .col-6.col-lg-4.mt-3
           figure
             img(src='@/assets/curso/temas/tema4/img4.png')        
 
       .row.justify-content-center.my-lg-4
         .col-lg-7.mb-4.mb-lg-0.pt-5.pt-0.position-relative
           .number(data-number="04")
-            h4.ps-4 #[i Hardware] gráfico
+            h4.ps-4 Dispositivos periféricos
             p.ps-4.mb-3 Son aquellos dispositivos que se encuentran afuera de una computadora y permiten la comunicación entre una persona y el ordenador. Estos elementos garantizan la entrada o salida de información desde la misma computadora. Se llaman periféricos porque se sientan alrededor de la computadora y actúan como memoria secundaria a la memoria principal. Estas unidades de #[i hardware], un grupo de #[i hardware] o componentes físicos que componen un sistema informático funcionan gracias a un #[i software] que permite que la computadora realice ciertas tareas.
-        .col-6.col-lg-4
+        .col-6.col-lg-4.mt-5
           figure
             img(src='@/assets/curso/temas/tema4/img5.png')    
 
@@ -80,7 +80,7 @@
     h3.mt-5.mb-5 Dispositivos periféricos
     p.mb-5 A continuación, se presenta información sobre los dispositivos periféricos:
 
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta-blanca")
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta-azul")
       .row(titulo="Periféricos de entrada")
         .col-md-6.mb-4.mb-md-0
           p Un dispositivo de entrada es cualquier #[i hardware] que envía datos (texto, números, sonido, gráficos, video, movimiento, temperatura, tacto, etc.) a una computadora. Son necesarios para interactuar con ellas y controlarlas. Estos datos, ingresados por otros usuarios o dispositivos, son capturados, digitalizados y enviados a una computadora para su procesamiento.
@@ -126,6 +126,7 @@
           ol.lista-ol--cuadro
             li > Disco duro.
             li > Disco duro externo.
+            li >	Memoria USB.
             li > Disco Compacto (CD), Disco Versátil Digital (DVD), etc.
             
         .col-md-6

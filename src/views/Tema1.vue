@@ -9,7 +9,7 @@
 
     .row.justify-content-center
       .col-md-7.mt-5
-        .bloque-texto-b.color-bloque-texto-verde
+        .bloque-texto-b.color-bloque-texto-verde.mb-3
           .bloque-texto-b__texto
             p El soporte técnico por teléfono o también llamada mesa de ayuda es un experto en mantenimiento de computadoras que ayuda a los clientes remotos a resolver los problemas que se encuentren al usar los equipos informáticos, especialmente, cuando el dispositivo no funciona. 
         p El servicio se proporciona de forma remota (teléfono), cuando el técnico de soporte trabaja en el centro de servicio (departamento de soporte técnico) puede brindar soporte a clientes de diferentes empresas. Este servicio es proporcionado por personal especializado en informática o mantenimiento, denominado técnico.
