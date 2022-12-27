@@ -138,8 +138,8 @@
         .col-md-7.mt-5
           .cajon.color-acento-botones.color-secundario-cajon-beige.p-3
             .row.justify-content-center.p-3 
-              p Es una palabra inglesa tomada de otros idiomas y designa cualquier componente no físico que forma parte del hardware de computadoras, teléfonos móviles o tabletas y le permite funcionar. 
-              p El software consiste en un grupo de aplicaciones y software diseñado para realizar varias funciones dentro del sistema. Además, incluye información del usuario y datos procesados. El software es una pieza que se comunica con el hardware (la parte física de un dispositivo), a través de instrucciones y pasos.
+              p Es una palabra inglesa tomada de otros idiomas y designa cualquier componente no físico que forma parte del #[i hardware] de computadoras, teléfonos móviles o tabletas y le permite funcionar. 
+              p El #[i software] consiste en un grupo de aplicaciones y #[i software] diseñado para realizar varias funciones dentro del sistema. Además, incluye información del usuario y datos procesados. El #[i software] es una pieza que se comunica con el #[i hardware] (la parte física de un dispositivo), a través de instrucciones y pasos.
 
           p.mt-5 Hay muchos ejemplos de programas, categorizados por su función en:
           ol.lista-ol--cuadro
@@ -187,7 +187,7 @@
         .col-lg-7.mb-4.mb-lg-0.pt-5.pt-0.position-relative
           .number(data-number="03")
             h4.ps-4 Elementos esenciales
-            p.ps-4.mb-0 Entre todos estos componentes, el hardware se divide en elementos esenciales, para referirse a aquellos que son parte integral del funcionamiento de una computadora, como la placa base, el teclado, la CPU, la memoria RAM o el monitor y complementos específicos como una impresora o un #[i pen drive.]  
+            p.ps-4.mb-0 Entre todos estos componentes, el #[i hardware] se divide en elementos esenciales, para referirse a aquellos que son parte integral del funcionamiento de una computadora, como la placa base, el teclado, la CPU, la memoria RAM o el monitor y complementos específicos como una impresora o un #[i pen drive.]  
                       
         .col-6.col-lg-4
           figure.mt-5
@@ -203,6 +203,10 @@
         .col-6.col-lg-4
           figure.mt-5
             img(src='@/assets/curso/temas/tema1/img14.png')  
+    
+    <Separador></Separador>
+    #t_1_3.titulo-segundo.color-primario.mt-5
+      h2 1.3 Herramienta
 
     .row.justify-content-center
       .col-md-12.mt-5
@@ -214,7 +218,7 @@
                 figure(data-aos="fade-right")
                   img(src='@/assets/curso/temas/tema1/img15.png')  
               .col-md-10
-                p #[span.text-bold Herramientas manuales:] son un documento técnico que explica la funcionalidad del software o sistema desarrollado como producto generado por un proyecto.
+                p #[span.text-bold Herramientas manuales:] son un documento técnico que explica la funcionalidad del #[i software] o sistema desarrollado como producto generado por un proyecto.
                 p Muestra los procesos que el usuario puede ejecutar con el sistema implantado. Para lograr esto es necesario detallar cada característica que tiene el programa y cómo se accede e ingresa la información.
                 p Permite a los usuarios ver, en detalle, las actividades que necesitan desarrollar para lograr los objetivos del sistema. Recoge la información, normas y documentos necesarios para que el usuario conozca la aplicación desarrollada y la utilice adecuadamente.
             
