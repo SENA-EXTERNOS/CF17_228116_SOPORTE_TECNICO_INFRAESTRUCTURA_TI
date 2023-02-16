@@ -16,10 +16,11 @@
             :style="{'background-image': `url(${require('@/assets/curso/portada/introduccion.png')})`}"
           )                             
           .bloque-texto-g__texto.p-4
-            p Estimado aprendiz, a través del presente componente formativo conocerá sobre el soporte técnico a la infraestructura TI. El objetivo de soporte técnico es resolver solicitudes en la cotidianidad de una empresa o persona de manera constante, con el propósito de que estos usuarios puedan contar con unos equipos de cómputo y redes funcionales para un desempeño eficiente en sus labores. Las actualizaciones tecnológicas generan cambios que, de alguna manera, afectan a todo el sistema. Por lo tanto, en este componente conocerán sobre problemas de soporte, alistamientos a realizar, normas que tener en cuenta y #[span.text-italica hardware.]
+            p Estimado aprendiz, a través del presente componente formativo conocerá sobre el soporte técnico a la infraestructura TI. El objetivo del soporte técnico es resolver solicitudes en la cotidianidad de una empresa o persona de manera constante, con el propósito de que estos usuarios puedan contar con unos equipos de cómputo y redes funcionales para un desempeño eficiente en sus labores. Las actualizaciones tecnológicas generan cambios que, de alguna manera, afectan a todo el sistema. Por lo tanto, en este componente conocerán sobre problemas de soporte, alistamientos a realizar, normas que se deben tener en cuenta y 
+              em hardware.
 
-    p.mt-5.mb-5 Se le invita a ver el video para documentarse sobre cada una de las temáticas que se desarrollan en este componente y que son fundamentales para su formación.
-    p.mt-5.mb-5 ¡Muchos éxitos en este proceso de aprendizaje!
+    p.mt-4.mb-4 A continuación, encontrará un video el cual le ayudará a conocer más sobre las temáticas que se desarrollan en este componente y que son fundamentales para su formación.
+    p.mt-4.mb-5 ¡Muchos éxitos en este proceso de aprendizaje!
 
     figure.mt-5
       .video

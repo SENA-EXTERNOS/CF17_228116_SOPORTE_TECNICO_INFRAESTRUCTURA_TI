@@ -26,44 +26,7 @@ export default {
         numero: '1',
         titulo: 'Problema de soporte',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Tipo de problemas',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Clasificación de problemas',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Herramienta',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Valoración de riesgos',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Medidas de control de riesgos',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Verificación de controles de riesgos',
-            hash: 't_1_6',
-          },
-        ],
+        subMenu: [],
       },
 
       {
@@ -72,26 +35,7 @@ export default {
         numero: '2',
         titulo: 'Alistamientos ',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Tipo de <i>software</i> asociado',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Protocolo de servicio ',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Ética y atención de clientes',
-            hash: 't_2_3',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
@@ -99,26 +43,7 @@ export default {
         numero: '3',
         titulo: 'Normas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Tipo de garantía ',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Seguridad y manipulación ',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Política y normas legales ',
-            hash: 't_3_3',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema4',
@@ -126,26 +51,7 @@ export default {
         numero: '4',
         titulo: '<i>Hardware</i>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Arquitectura de <i>hardware</i>',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Tipo de equipos',
-            hash: 't_4_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.3',
-            titulo: 'Tipo de puertos',
-            hash: 't_4_3',
-          },
-        ],
+        subMenu: [],
       },
     ],
     subMenu: [
@@ -199,7 +105,7 @@ export default {
     {
       tema: 'Arquitectura de <i>Hardware</i> - Info Educativa',
       referencia:
-        'Info educativo. (2020). Arquitectura de Hardware. Info Educativa [Video]. YouTube. ',
+        'Info educativo. (2020). Arquitectura de <i>Hardware</i>. Info Educativa [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://youtu.be/hLwWgZk7AGg',
     },
@@ -213,7 +119,7 @@ export default {
     {
       tema: 'El <i>software</i> y <i>hardware</i>',
       referencia:
-        'Lifider Educación (2022). El software y el hardware explicados: tipos y ejemplos. [Video] YouTube. ',
+        'Lifider Educación (2022). El <i>software</i> y el <i>hardware</i> explicados: tipos y ejemplos. [Video] YouTube. ',
       tipo: 'Video',
       link: 'https://youtu.be/_eg31SXhr2g ',
     },
@@ -279,7 +185,7 @@ export default {
     },
     {
       referencia:
-        'Corrales, J. (2019). Servicio al cliente ¿Qué es y por qué es un pilar de las empresas exitosas?. ',
+        'Corrales, J. (2019). <i>Servicio al cliente ¿Qué es y por qué es un pilar de las empresas exitosas?</i>. [Documento web] ',
       link: 'https://rockcontent.com/es/blog/servicio-al-cliente/',
     },
     {
@@ -289,18 +195,19 @@ export default {
     },
     {
       referencia:
-        'Información, T. (2018). La arquitectura de servidores: Clientes – Servidor y Multicapa. ',
+        'Información, T. (2018). <i>La arquitectura de servidores: Clientes – Servidor y Multicapa.</i> [Documento web] ',
       link:
         'https://www.tecnologias-informacion.com/arquitectura-servidores.html ',
     },
     {
-      referencia: 'Muñoz, J. (2014). Diagrama de concepto de solución. ',
+      referencia:
+        'Muñoz, J. (2014). <i>Diagrama de concepto de solución</i>. [Documento web] ',
       link:
-        'https://chae201411700521596.wordpress.com/2014/07/15/diagrama-de-concepto-de-solucion/',
+        'https://chae201411700521596.wordpress.com/2014/07/15/diagrama-de-concepto-de-solucion/ ',
     },
     {
       referencia:
-        'Rodríguez, J. (2006). La importancia del servicio al Cliente. ',
+        'Rodríguez, J. (2006). <i>La importancia del servicio al Cliente</i>. [Documento web] ',
       link:
         'https://kipdf.com/download/la-importancia-del-servicio-al-cliente-contenido-general-del-curso_5aafba5a1723dd429c74ebee.html ',
     },

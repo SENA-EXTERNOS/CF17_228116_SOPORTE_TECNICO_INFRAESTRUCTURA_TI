@@ -7,11 +7,11 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/curso/temas/ad.png", alt="")
+            img(src="@/assets/curso/temas/ad.svg", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-primario
           h2 Soporte técnico a la infraestructura TI
-        p.mb-4 Apreciado aprendiz, a través de esta actividad didáctica podrá afianzar sus conocimientos sobre el tema visto soporte  técnico a la infraestructura TI.
+        p.mb-4 Apreciado aprendiz, a través de esta actividad didáctica podrá afianzar sus conocimientos sobre el tema visto soporte técnico a la infraestructura TI.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

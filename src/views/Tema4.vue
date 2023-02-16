@@ -7,12 +7,11 @@
         span.text-white 4
       h1 #[i Hardware]
 
-    p Es la parte física de una computadora o sistema informático. Se compone de componentes eléctricos, electrónicos, electromecánicos y mecánicos tales como circuitos eléctricos, circuitos, memorias, discos duros, periféricos y todos los demás materiales en condiciones físicas para el funcionamiento de cualquier dispositivo.  
+    p Es la parte física de una computadora o sistema informático. Se compone de elementos eléctricos, electrónicos, electromecánicos y mecánicos tales como: circuitos eléctricos, circuitos, memorias, discos duros, periféricos y todos los demás materiales en condiciones físicas para el funcionamiento de cualquier dispositivo.
 
 
-    <Separador></Separador>
-    #t_4_1.titulo-segundo.color-primario.mt-5
-      h2 4.1 Arquitectura de #[i hardware]
+    #t_4_1.mt-5
+      h3 Arquitectura de #[i hardware]
 
     
     .row.justify-content-center.mt-5
@@ -20,22 +19,24 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema4/img1.png', alt='alt')
       .col-md-7
-        p La arquitectura de #[i hardware] es el diseño conceptual y la estructura operativa básica de un sistema informático. Es decir, es un modelo y una descripción funcional de los requisitos de diseño e implementación para diferentes partes de una computadora, con especial atención a cómo la CPU opera internamente y accede a las direcciones de memoria. También se define a menudo como la forma en que se seleccionan y conectan los componentes de #[i hardware] para construir computadoras en función de los requisitos funcionales, el rendimiento y el costo.
-        p Las computadoras reciben y transmiten información a través de dispositivos que utilizan canales. Una computadora personal es responsable de procesar la información. La información debe intercambiarse con dispositivos periféricos y CPU. Todas las unidades del sistema, excepto la CPU, se denominan periféricos, por lo que una computadora tiene dos partes completamente diferentes, a saber: la CPU (responsable de ejecutar programas y compuesta por memoria principal, Unidades Aritméticas Lógicas (UAL) y controladores) y el periférico, donde están los dispositivos que pueden ser de entrada, salida o conexión.
+        p La arquitectura de #[i hardware] es el diseño conceptual y la estructura operativa básica de un sistema informático. Es decir, es un modelo y una descripción funcional de los requisitos de diseño e implementación para diferentes partes de una computadora, con especial atención en la CPU, de cómo opera internamente y accede a las direcciones de memoria. También se define a menudo como la forma en que se seleccionan y conectan los componentes de #[i hardware] para construir computadoras, teniendo en cuenta los requisitos funcionales, el rendimiento y el costo.
+
+        p Las computadoras reciben y transmiten información a través de dispositivos que utilizan canales. Una computadora personal es responsable de procesar la información. La información debe intercambiarse con dispositivos periféricos y CPU. Todas las unidades del sistema, excepto la CPU, se denominan periféricos, por lo que una computadora tiene dos partes completamente diferentes: la CPU (responsable de ejecutar programas y compuesta por memoria principal, Unidades Aritméticas Lógicas (UAL) y controladores) y el periférico, donde están los dispositivos que pueden ser de entrada, salida o conexión.
 
 
-    <Separador></Separador>
-    #t_4_2.titulo-segundo.color-primario.mt-5
-      h2 4.2 Tipo de equipos
 
-    p El equipo se divide en cinco categorías según el rendimiento de sus componentes.
+
+    #t_4_2.mt-5
+      h3 Tipo de equipos
+
+    p El equipo se divide en cinco categorías según el rendimiento de sus componentes:
 
     SlyderA(tipo="b").slyder-amarillo
       .row.justify-content-center.my-lg-4
         .col-lg-7.mb-4.mb-lg-0.pt-5.pt-0.position-relative
           .number(data-number="01")
             h4.ps-4 #[i Hardware] de procesamiento
-            p.ps-4.mb-3 Corresponde a la Unidad Central de Procesamiento, o UCP, el centro de operaciones lógicas de la computadora, donde se interpretan y ejecutan las funciones necesarias para el funcionamiento del resto de los componentes.            
+            p.ps-4.mb-3 Corresponde a la Unidad Central de Procesamiento, o UCP, el centro de operaciones lógicas de la computadora, donde se interpretan y ejecutan las funciones necesarias para el correcto trabajo del resto de los componentes.
         .col-6.col-lg-4
           figure
             img(src='@/assets/curso/temas/tema4/img2.png')
@@ -53,7 +54,7 @@
         .col-lg-7.mb-4.mb-lg-0.pt-5.pt-0.position-relative
           .number(data-number="03")
             h4.ps-4 #[i Hardware] gráfico
-            p.ps-4.mb-3 Se compone principalmente de tarjetas gráficas que cuentan con su propia memoria y CPU y se encargan de interpretar y ejecutar señales para crear una imagen. El hecho de que esta función no recaiga en la CPU está relacionado con la eficiencia, pues el sistema funciona de manera óptima al reducir la memoria principal de estas funciones.
+            p.ps-4.mb-3 Se compone principalmente de tarjetas gráficas que cuentan con su propia memoria y CPU y se encargan de interpretar y ejecutar señales para crear una imagen. El hecho de que esta función no recaiga en la CPU está relacionado con la eficiencia, pues el sistema trabaja de manera óptima al reducir la memoria principal de estas funciones.
         .col-6.col-lg-4.mt-3
           figure
             img(src='@/assets/curso/temas/tema4/img4.png')        
@@ -62,7 +63,7 @@
         .col-lg-7.mb-4.mb-lg-0.pt-5.pt-0.position-relative
           .number(data-number="04")
             h4.ps-4 Dispositivos periféricos
-            p.ps-4.mb-3 Son aquellos dispositivos que se encuentran afuera de una computadora y permiten la comunicación entre una persona y el ordenador. Estos elementos garantizan la entrada o salida de información desde la misma computadora. Se llaman periféricos porque se sientan alrededor de la computadora y actúan como memoria secundaria a la memoria principal. Estas unidades de #[i hardware], un grupo de #[i hardware] o componentes físicos que componen un sistema informático funcionan gracias a un #[i software] que permite que la computadora realice ciertas tareas.
+            p.ps-4.mb-3 Son aquellos dispositivos que se encuentran afuera de una computadora y permiten la comunicación entre una persona y el ordenador. Estos elementos garantizan la entrada o salida de información desde la misma computadora. Se llaman periféricos porque se sientan alrededor de la computadora y actúan como memoria secundaria a la memoria principal. Las unidades de un grupo de #[i hardware] o componentes físicos componen un sistema informático y funcionan gracias a un #[i software] que permite que la computadora realice ciertas tareas.
         .col-6.col-lg-4.mt-5
           figure
             img(src='@/assets/curso/temas/tema4/img5.png')    
@@ -98,7 +99,7 @@
 
       .row(titulo="Periféricos de salida")
         .col-md-6.mb-4.mb-md-0
-          p Se sabe que los dispositivos de salida reciben datos de la computadora y muestran los procesos en ejecución al usuario. La mayor parte de la información destinada a publicidad, comunicaciones, advertencias, etc. se vuelve clara y comprensible para cualquier persona. Los más utilizados son los siguientes:
+          p Se sabe que los dispositivos de salida reciben datos de la computadora y muestran los procesos en ejecución al usuario. La mayor parte de la información destinada a publicidad, comunicaciones, advertencias, entre otros, se vuelve clara y comprensible para cualquier persona. Los más utilizados son los siguientes:
           ol.lista-ol--cuadro
             li > Altavoces o auriculares: reproducen el sonido del exterior a través del teléfono, radio, amplificación o equipo de transmisión.
             li > GPS: es un sistema de navegación y posicionamiento. 
@@ -134,11 +135,11 @@
             img(src='@/assets/curso/temas/tema4/img10.png', alt='n')                       
 
 
-    <Separador></Separador>
-    #t_4_3.titulo-segundo.color-primario.mt-5
-      h2 4.3 Tipos de puerto
 
-    p Se presenta a continuación el concepto de puerto y los tipos que se encuentran.
+    #t_4_3.mt-5
+      h3 Tipos de puerto
+
+    p Se presenta a continuación el concepto de puerto y los tipos que se encuentran:
 
     .bg_slyder.px-5.py-3.mb-5
       SlyderA(tipo="b")
@@ -155,7 +156,7 @@
           .col-lg-7.mb-4.mb-lg-0.pt-5.pt-0.position-relative
             .number(data-number="02")   
               h4 Puertos físicos           
-              p.mb-3 Estos son conectores integrados en una tarjeta de expansión o en la placa base de la computadora. Está especialmente diseñado con características electrónicas para conectar varios dispositivos externos o periféricos a la computadora. Los conectores hembra, generalmente, se encuentran en placas base o cajas, mientras que los conectores macho se encuentran en dispositivos o cables. 
+              p.mb-3 Estos son conectores integrados en una tarjeta de expansión o en la placa base de la computadora. Está especialmente diseñado con características electrónicas para conectar varios dispositivos externos o periféricos a la computadora. Los conectores hembra, generalmente se encuentran en placas base o cajas, mientras que los conectores macho se encuentran en dispositivos o cables. 
           .col-6.col-lg-5.mt-5
             figure
               img(src='@/assets/curso/temas/tema4/img12.png')  
@@ -180,7 +181,7 @@
       .col-md-10.mt-5
         .cajon.color-acento-botones.color-secundario-cajon.p-3
           .row.justify-content-center.p-3 
-            p Tenga en cuenta que el componente formativo dispone de más recursos que se ubican en este, para ello diríjase al menú principal en donde encontrará, entre otros: la síntesis, actividad didáctica y el material complementario.
+            p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 
 </template>
