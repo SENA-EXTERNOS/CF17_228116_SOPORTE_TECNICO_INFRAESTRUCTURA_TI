@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Soporte técnico a la infraestructura TI',
     descripcionCurso:
-      'El personal de soporte técnico TI garantiza la disponibilidad y operación a las empresas o clientes para brindar un buen servicio que resuelva todo tipo de problemas relacionados con el mantenimiento del hardware, software y la red de computadores. Puede hacerlo de forma personal o remota, por diferentes medios de comunicación.',
+      'El personal de soporte técnico TI garantiza la disponibilidad y operación a las empresas o clientes para brindar un buen servicio que resuelva todo tipo de problemas relacionados con el mantenimiento del <em>hardware</em>, <em>software</em> y la red de computadores. Puede hacerlo de forma personal o remota, por diferentes medios de comunicación.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [],
@@ -33,7 +33,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Alistamientos ',
+        titulo: 'Alistamiento',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -180,8 +180,7 @@ export default {
     {
       referencia:
         'Almond, G. (1996). <i>Political Science: The History of the Discipline, A New Handbook of Political Science</i>. In: R. E. Goodin and H. D. Klingemann (ed.). Oxford University Press. pp. 64-89. ',
-      link:
-        'https://www.scielo.org.mx/scielo.php?script=sci_nlinks&pid=S1405-0218200200020011900005&lng=en',
+      link: '',
     },
     {
       referencia:

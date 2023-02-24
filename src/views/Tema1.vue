@@ -30,7 +30,7 @@
       .py-3.py-md-4.bg-tabc(titulo="Problemas técnicos en portátiles")
         .row.justify-content-center
           .col-lg-6.mb-4.mb-lg-0.mt-5
-            p Las computadoras portátiles son preferidas por muchas personas, por razones como: la capacidad, el peso ligero, la facilidad para desplazarla a cualquier lugar, la duración de la batería y el bajo consumo de cable. Las personas suelen utilizarlas para el trabajo y el estudio. Algunos de los problemas técnicos que se pueden presentar en su mayoría son relativamente fáciles de resolver. Algunos de los errores más comunes de las computadoras portátiles son la duración de la batería, el sobrecalentamiento, los problemas de conectividad inalámbrica, problemas de software sistema operativo, drivers, bloqueos de la cámara web y la poca memoria.
+            p Las computadoras portátiles son preferidas por muchas personas, por razones como: la capacidad, el peso ligero, la facilidad para desplazarla a cualquier lugar, la duración de la batería y el bajo consumo de cable. Las personas suelen utilizarlas para el trabajo y el estudio. Algunos de los problemas técnicos que se pueden presentar en su mayoría son relativamente fáciles de resolver. Algunos de los errores más comunes de las computadoras portátiles son la duración de la batería, el sobrecalentamiento, los problemas de conectividad inalámbrica, problemas de <em>software</em> sistema operativo, <em>drivers</em>, bloqueos de la cámara web y la poca memoria.
           .col-lg-5.mt-5
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img2.png', alt='').img400.m-auto
@@ -126,7 +126,7 @@
           p(numero="1" titulo="Compruebe los programas en ejecución") Presione “control + alt + eliminar”, vaya a la pestaña "proceso" y verifique lo que se está ejecutando. A veces, su PC funciona lentamente debido a que muchas aplicaciones se ejecutan al mismo tiempo y puede deberse a la falta de RAM. Elimine los procesos que no necesita.
           p(numero="2" titulo="Eliminar virus y troyanos") Si un virus caballo de Troya o <em>spyware</em> ingresa a su computadora es probable que vuelva a suceder. Obtenga un buen antivirus, escanee y elimine todas las infecciones. Si instala una aplicación que ralentiza mucho su computadora, considere instalar otra aplicación que funcione mejor para usted.
           p(numero="3" titulo="Aumente la memoria RAM") Muchas computadoras se compraron temprano en el negocio y no se han actualizado desde entonces. Si cree que no necesita invertir en una computadora nueva, al menos, debe actualizar su RAM.
-          p(numero="4" titulo="No trabaje con programas muy pesados") Si su computadora no está diseñada para admitir la reproducción de ciertos programas, como videos, hay algunas cosas que puede hacer, cambie la tarjeta de video, aumente la memoria RAM o busque otros programas que sean más adecuados para el hardware que tiene.
+          p(numero="4" titulo="No trabaje con programas muy pesados") Si su computadora no está diseñada para admitir la reproducción de ciertos programas, como videos, hay algunas cosas que puede hacer, cambie la tarjeta de video, aumente la memoria RAM o busque otros programas que sean más adecuados para el <em>hardware</em> que tiene.
           p(numero="5" titulo="Limpie el navegador de basura") Muy a menudo, lo que afecta el rendimiento de una computadora no es más que complementos instalados en el navegador, a veces, muy peligrosos y, a veces, simplemente molestos. Si no está seguro de qué barra de herramientas ha descargado, vaya a Herramientas > Complementos de su navegador y elimine los que no necesite. 
           p(numero="6" titulo="Utilice un sistema operativo menos exigente") Trabajar con una versión antigua del sistema operativo cuando se tiene poca RAM puede generar muchos problemas. Por lo tanto, es mejor actualizar el sistema a versiones más recientes que son mucho más eficientes. 
           p(numero="7" titulo="Vacía la computadora") Si está utilizando espacio disponible en el disco duro, obtendrá un cartel informativo de que no queda espacio en la memoria. Si tiene problemas para guardar archivos, puede guardarlos en la nube con una copia de respaldo y, luego, descargar lo que necesita.
@@ -135,7 +135,7 @@
           img(src='@/assets/curso/temas/tema1/img9.png', alt='alt')           
            
     h4.mt-5.mb-4  Problema del #[i hardware] en general
-    p En el siguiente video, se presenta de forma general, algunos problemas que presenta el hardware:
+    p En el siguiente video, se presenta de forma general, algunos problemas que presenta el <em>hardware</em>:
     figure.mt-4.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -204,11 +204,11 @@
             h4.ps-4 Tipos
             p.ps-4.mb-3 Hay dos tipos distintos:
             p.ps-4.mb-3 
-              span.resaltado Interior: 
+              b Interior: 
               | dentro de una torre de computadora, como cables, placas de circuitos, CPU o dispositivos de almacenamiento.
 
             p.ps-4.mb-0 
-              span.resaltado Periféricos:  
+              b Periféricos:  
               | ubicados fuera de la torre de la computadora. Entre estos tenemos dispositivos de entrada que brindan información al sistema, como un ratón o teclado; el dispositivo de salida, que informa sobre las operaciones realizadas en la computadora, como un monitor o una impresora; y los periféricos de E/S realizan las dos funciones anteriores, como USB.
         .col-6.col-lg-4
           figure.m-top
@@ -229,7 +229,7 @@
         .col-lg-7.mb-4.mb-lg-0.pt-5.pt-0.position-relative
           .number(data-number="04")
             h4.ps-4 #[i Hardware] libre
-            p.ps-4.mb-0 Además, en los últimos tiempos se ha potenciado el concepto de #[i hardware] libre. El término se utiliza para designar componentes de hardware cuyos diseños y esquemas están disponibles públicamente, de forma gratuita o mediante alguna forma de pago. Sin embargo, esta sigue siendo una noción desconcertante incluso para los autores que intentan definirla.
+            p.ps-4.mb-0 Además, en los últimos tiempos se ha potenciado el concepto de #[i hardware] libre. El término se utiliza para designar componentes de #[i hardware] cuyos diseños y esquemas están disponibles públicamente, de forma gratuita o mediante alguna forma de pago. Sin embargo, esta sigue siendo una noción desconcertante incluso para los autores que intentan definirla.
                         
         .col-6.col-lg-4
           figure.mt-5
