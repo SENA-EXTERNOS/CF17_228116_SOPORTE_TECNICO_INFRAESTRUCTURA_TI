@@ -206,9 +206,8 @@ export default {
     },
     {
       referencia:
-        'Rodríguez, J. (2006). <i>La importancia del servicio al Cliente</i>. [Documento web] ',
-      link:
-        'https://kipdf.com/download/la-importancia-del-servicio-al-cliente-contenido-general-del-curso_5aafba5a1723dd429c74ebee.html ',
+        'Rodríguez, J. (2006). <i>La importancia del servicio al Cliente</i>.',
+      link: '',
     },
   ],
   creditos: {

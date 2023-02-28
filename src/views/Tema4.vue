@@ -72,7 +72,7 @@
         .col-lg-7.mb-4.mb-lg-0.pt-5.pt-0.position-relative
           .number(data-number="05")
             h4.ps-4 #[i Hardware] y #[i software]
-            p.ps-4.mb-3 para el funcionamiento normal del #[i hardware] también se necesita el #[i software], que es la parte lógica de la informática y no es tangible. Allí se codifica cualquier instrucción o tarea realizada por un sistema electrónico. El #[i software] incluye todo, desde un sistema operativo hasta aplicaciones de escritorio que le permiten realizar tareas específicas, como editores de texto o imágenes.
+            p.ps-4.mb-3 Para el funcionamiento normal del #[i hardware] también se necesita el #[i software], que es la parte lógica de la informática y no es tangible. Allí se codifica cualquier instrucción o tarea realizada por un sistema electrónico. El #[i software] incluye todo, desde un sistema operativo hasta aplicaciones de escritorio que le permiten realizar tareas específicas, como editores de texto o imágenes.
         .col-6.col-lg-4
           figure
             img(src='@/assets/curso/temas/tema4/img6.png')                                     
