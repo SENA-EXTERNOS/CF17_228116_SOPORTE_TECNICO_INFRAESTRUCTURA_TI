@@ -30,7 +30,7 @@
           div(titulo="<i>Software</i> de aplicación").px-5.py-3
             p.mb-0 Se entiende por #[i software] de aplicación todos los programas que no están relacionados con el funcionamiento de la computadora, pero que se instalan en el sistema para realizar una función específica y definida: herramientas de trabajo, tales como hojas de cálculo, procesadores de texto, programas de diseño gráfico; programas de entretenimiento como videojuegos, reproducción de audio o video, o #[i software] de información simple como enciclopedias digitales, navegadores de internet, etc.
 
-    h4.mt-5.mb-4 Ejemplos de software del sistema
+    h4.mt-5.mb-4 Ejemplos de #[em software] del sistema
     p A continuación, se presentan algunos ejemplos posibles de #[i software] del sistema:
 
     .row.justify-content-center

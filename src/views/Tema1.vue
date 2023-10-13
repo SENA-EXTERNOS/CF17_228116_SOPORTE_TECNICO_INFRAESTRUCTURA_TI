@@ -30,7 +30,7 @@
       .py-3.py-md-4.bg-tabc(titulo="Problemas técnicos en portátiles")
         .row.justify-content-center
           .col-lg-6.mb-4.mb-lg-0.mt-5
-            p Las computadoras portátiles son preferidas por muchas personas, por razones como: la capacidad, el peso ligero, la facilidad para desplazarla a cualquier lugar, la duración de la batería y el bajo consumo de cable. Las personas suelen utilizarlas para el trabajo y el estudio. Algunos de los problemas técnicos que se pueden presentar en su mayoría son relativamente fáciles de resolver. Algunos de los errores más comunes de las computadoras portátiles son la duración de la batería, el sobrecalentamiento, los problemas de conectividad inalámbrica, problemas de <em>software</em> sistema operativo, <em>drivers</em>, bloqueos de la cámara web y la poca memoria.
+            p Las computadoras portátiles son preferidas por muchas personas, por razones como: la capacidad, el peso ligero, la facilidad para desplazarla a cualquier lugar, la duración de la batería y el bajo consumo de cable. Las personas suelen utilizarlas para el trabajo y el estudio. Algunos de los problemas técnicos que se pueden presentar en su mayoría son relativamente fáciles de resolver. Algunos de los errores más comunes de las computadoras portátiles son la duración de la batería, el sobrecalentamiento, los problemas de conectividad inalámbrica, problemas de <em>software,</em> sistema operativo, <em>drivers</em>, bloqueos de la cámara web y la poca memoria.
           .col-lg-5.mt-5
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img2.png', alt='').img400.m-auto

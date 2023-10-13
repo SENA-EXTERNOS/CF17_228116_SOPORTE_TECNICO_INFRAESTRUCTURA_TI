@@ -34,7 +34,7 @@
 
     p El objetivo de la seguridad informática es garantizar la confidencialidad de la información y la continuidad del servicio, tratando de minimizar la vulnerabilidad de los sistemas, de la información contenida en ellos y de las redes privadas y sus recursos.
     p En este sentido, la seguridad informática sirve para proteger la información de amenazas o peligros, prevenir daños y reducir los riesgos asociados a los mismos.            
-    p La seguridad de la información incluye la implementación de un conjunto de medidas técnicas destinadas a proteger la confidencialidad, integridad y disponibilidad de la información y también puede incluir otros atributos, como confiabilidad, responsabilidad y confiabilidad. Debe comprobar las siguientes propiedades:
+    p La seguridad de la información incluye la implementación de un conjunto de medidas técnicas destinadas a proteger la confidencialidad, integridad y disponibilidad de la información y también puede incluir otros atributos, como responsabilidad y confiabilidad. Debe comprobar las siguientes propiedades:
 
 
     .row.justify-content-center.mt-5
